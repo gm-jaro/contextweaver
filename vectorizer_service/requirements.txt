@@ -1,0 +1,14 @@
+
+pydantic
+qdrant-client
+langchain-qdrant
+langchain-core
+langchain-huggingface
+fastembed
+langchain-classic
+langchain-community
+redis
+loguru
+# pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm7.1
+langchain-ollama
+langchain-openai

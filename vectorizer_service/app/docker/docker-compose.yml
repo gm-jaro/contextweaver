@@ -1,0 +1,11 @@
+services:
+#  vectorizer:
+#    build: .
+#    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8060
+
+  vectorizer-worker:
+    build: .
+    command: python -m app.workers.ingest_worker
+    depends_on:
+      - redis
+      - qdrant
